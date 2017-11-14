@@ -2,6 +2,6 @@ version: '3'
 
 services:
   node:
-    build: dockers/node
+    build: docker/node
     volumes:
       - './:/node-fhir-validator'
